@@ -19,5 +19,5 @@ function init() {
     }
   }
 
-  document.body.addEventListener('keydown', function (e) { return onKeyDownHandler(e) })
+  document.body.addEventListener('keydown', (e) => onKeyDownHandler(e))
 }
